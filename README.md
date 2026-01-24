@@ -16,7 +16,8 @@ pkg install git python -y
  تثبيت الأدوات الأساسية (Git & Python)
 تحتاج لهذه الأدوات لتحميل الملفات وتشغيل لغة البرمجة التي بُنيت بها الأداة.
 ```bash
-git clone [https://github.com/ossamaelbouhali794-cpu/inst-hak](https://github.com/ossamaelbouhali794-cpu/inst-hak)
+git clone https://github.com/ossamaelbouhali794-cpu/inst-hak
+
 ```
 
 تغيير المسار الحالي لتتمكن من الوصول لملفات الأداة المحملة
@@ -33,4 +34,4 @@ requirements.txt
 `
 الأمر النهائي لبدء تشغيل البرنامج.
 ```bash
-python inst-hak.py
+python ista.py
