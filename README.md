@@ -1,3 +1,36 @@
-لتحميل هده الأداة يجب عليك تحميل 
-pkg install git
-pkg install python 
+# 🛠️ تعليمات التشغيل (خطوة بخطوة)
+
+قم بنسخ كل كود ولصقه في Terminal بالترتيب:
+
+### 1️⃣ تحديث حزم النظام
+هذا الأمر للتأكد من أن تطبيق Termux لديك يعمل بآخر التحديثات لتجنب الأخطاء.
+```bash
+pkg update && pkg upgrade -y
+```
+
+ تثبيت الأدوات الأساسية (Git & Python)
+تحتاج لهذه الأدوات لتحميل الملفات وتشغيل لغة البرمجة التي بُنيت بها الأداة.
+```bash
+pkg install git python -y
+```
+ تثبيت الأدوات الأساسية (Git & Python)
+تحتاج لهذه الأدوات لتحميل الملفات وتشغيل لغة البرمجة التي بُنيت بها الأداة.
+```bash
+git clone [https://github.com/ossamaelbouhali794-cpu/inst-hak](https://github.com/ossamaelbouhali794-cpu/inst-hak)
+```
+
+تغيير المسار الحالي لتتمكن من الوصول لملفات الأداة المحملة
+```bash
+cd inst-hak
+```
+
+
+تثبيت المتطلبات اللازمة لتشغيل السكريبت.
+```bash
+requirements.txt
+
+```
+`
+الأمر النهائي لبدء تشغيل البرنامج.
+```bash
+python inst-hak.py
