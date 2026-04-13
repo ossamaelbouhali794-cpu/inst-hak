@@ -28,7 +28,8 @@ cd inst-hak
 
 تثبيت المتطلبات اللازمة لتشغيل السكريبت.
 ```bash
-requirements.txt
+pip install requests colorama
+
 
 ```
 `
